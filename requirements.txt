@@ -21,5 +21,7 @@ typed-ast==1.4.3
 typing-extensions==3.10.0.0
 zipp==3.5.0
 gunicorn
+--install-option="--no-deps" django-heroku
+dj-database-url
+psycopg2-binary
 whitenoise
-django-heroku
